@@ -4,17 +4,17 @@ export function ProjectsSection() {
   const projects = [
     {
       title: "Synapse",
-      description: "A comprehensive healthcare application that allows users to book appointments, access medical records, and communicate with healthcare professionals.",
+      description: "A modern healthcare patient management application built with Next.js 16, enabling patients to easily register, book, and manage their medical appointments. The system includes an administrative dashboard for healthcare staff to manage appointments efficiently.",
       logoSrc: "/logo_healthcare.png",
-      githubUrl: "#",
-      liveDemoUrl: "#"
+      githubUrl: "https://github.com/sardarabhay/healthcare_synapse",
+      liveDemoUrl: "https://healthcare-synapse.vercel.app/"
     },
     {
       title: "CartFlow",
-      description: "A comprehensive healthcare application that allows users to book appointments, access medical records, and communicate with healthcare professionals.",
+      description: "A full-stack e-commerce application built with React, TypeScript, and Node.js/Express. This project demonstrates a complete shopping cart flow including product browsing, cart management, checkout, order tracking, and order history.",
       logoSrc: "/logo_ecommerce.png",
-      githubUrl: "#",
-      liveDemoUrl: "#"
+      githubUrl: "https://github.com/sardarabhay/ecommerce_cartflow",
+      liveDemoUrl: "http://ecommerce-project-env.eba-kdqziby3.eu-north-1.elasticbeanstalk.com/"
     }
   ];
 
