@@ -23,6 +23,10 @@ export default function HomePage() {
     setTimeout(() => setCopied(false), 2000);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div className="bg-gray-50 dark:bg-zinc-900">
       <div className="relative mx-auto max-w-3xl w-full min-h-screen bg-white dark:bg-black px-4 sm:px-8">
@@ -49,7 +53,9 @@ export default function HomePage() {
 
         <Dock direction="middle" className="fixed inset-x-0 bottom-0 flex justify-center items-center z-50 bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 mb-5">
           <DockIcon>
-            <Home className="size-6 text-gray-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors" />
+            <button onClick={scrollToTop} aria-label="Scroll to top">
+              <Home className="size-6 text-gray-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors" />
+            </button>
           </DockIcon>
           <DockIcon>
             <a href="https://www.linkedin.com/in/abhay-sardar-26150b27a" target="_blank" rel="noopener noreferrer">
@@ -57,7 +63,7 @@ export default function HomePage() {
             </a>
           </DockIcon>
           <DockIcon>
-            <a href="https://github.com/abhaysardar" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/sardarabhay" target="_blank" rel="noopener noreferrer">
               <GithubIcon className="size-6 text-gray-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors" />
             </a>
           </DockIcon>
