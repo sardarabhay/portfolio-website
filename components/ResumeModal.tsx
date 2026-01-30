@@ -34,7 +34,7 @@ export function ResumeModal({ open, onClose }: ResumeModalProps) {
         </div>
         <div className="mt-3 h-[70vh] w-full overflow-hidden rounded-lg border border-zinc-800 bg-black">
           <iframe
-            src="/resume.pdf"
+            src="/_Resume (2).pdf"
             title="Resume PDF"
             className="h-full w-full"
           />
