@@ -1,4 +1,6 @@
+
 import { ProjectCard } from "./ProjectCard";
+
 
 export function ProjectsSection() {
   const projects = [
@@ -17,6 +19,13 @@ export function ProjectsSection() {
       githubUrl: "https://github.com/sardarabhay/ecommerce_cartflow",
       liveDemoUrl: "http://ecommerce-project-env.eba-kdqziby3.eu-north-1.elasticbeanstalk.com/",
       techStack: ["React", "Vite", "Node.js", "Express", "Sequelize"]
+    },
+    {
+      title: "HarmonyHomes",
+      description: "A full-stack roommate management application designed to help shared households organize their daily lives efficiently. HarmonyHomes simplifies expense tracking, chore management, event planning, and communication between roommates.",
+      logoSrc: "/logo_roommates.png",
+      githubUrl: "https://github.com/TY-Project-BG-17/TY_Project",
+      techStack: ["React", "Vite", "Node.js", "Express", "Prisma","PostgreSQL","Tailwind CSS"]
     }
   ];
 
