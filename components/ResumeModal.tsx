@@ -41,7 +41,7 @@ export function ResumeModal({ open, onClose }: ResumeModalProps) {
         </div>
         <div className="mt-4 flex justify-end">
           <a
-            href="/resume.pdf"
+            href="/_Resume (2).pdf"
             download
             className="flex items-center gap-2 rounded-lg bg-neutral-500 px-4 py-2 text-sm font-medium text-neutral-900 transition-all hover:bg-zinc-800 hover:text-neutral-400 active:scale-95"
           >
