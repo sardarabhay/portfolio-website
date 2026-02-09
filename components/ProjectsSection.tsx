@@ -25,6 +25,7 @@ export function ProjectsSection() {
       description: "A full-stack roommate management application designed to help shared households organize their daily lives efficiently. HarmonyHomes simplifies expense tracking, chore management, event planning, and communication between roommates.",
       logoSrc: "/logo_roommates.png",
       githubUrl: "https://github.com/TY-Project-BG-17/TY_Project",
+      liveDemoUrl: "https://project-roommates.vercel.app/",
       techStack: ["React", "Vite", "Node.js", "Express", "Prisma","PostgreSQL","Tailwind CSS"]
     }
   ];
