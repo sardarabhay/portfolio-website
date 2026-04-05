@@ -5,6 +5,14 @@ import { ProjectCard } from "./ProjectCard";
 export function ProjectsSection() {
   const projects = [
     {
+      title: "HarmonyHomes",
+      description: "A full-stack roommate management application designed to help shared households organize their daily lives efficiently. HarmonyHomes simplifies expense tracking, chore management, event planning, and communication between roommates.",
+      logoSrc: "/logo_roommates.png",
+      githubUrl: "https://github.com/sardarabhay/Project_Roommates",
+      liveDemoUrl: "https://project-roommates.vercel.app/",
+      techStack: ["React", "Vite", "Node.js", "Express", "Prisma","PostgreSQL","Tailwind CSS","Socket.IO","FCM","JWT"]
+    },
+    {
       title: "Synapse",
       description: "A modern healthcare patient management application built with Next.js 16, enabling patients to easily register, book, and manage their medical appointments. The system includes an administrative dashboard for healthcare staff to manage appointments efficiently.",
       logoSrc: "/logo_healthcare.png",
@@ -17,17 +25,10 @@ export function ProjectsSection() {
       description: "A full-stack e-commerce application built with React and Node.js/Express. This project demonstrates a complete shopping cart flow including product browsing, cart management, checkout, order tracking, and order history.",
       logoSrc: "/logo_ecommerce.png",
       githubUrl: "https://github.com/sardarabhay/ecommerce_cartflow",
-      liveDemoUrl: "http://ecommerce-project-env.eba-kdqziby3.eu-north-1.elasticbeanstalk.com/",
+      liveDemoUrl: "https://ecommerce-sigma-bay-70.vercel.app/",
       techStack: ["React", "Vite", "Node.js", "Express", "Sequelize"]
-    },
-    {
-      title: "HarmonyHomes",
-      description: "A full-stack roommate management application designed to help shared households organize their daily lives efficiently. HarmonyHomes simplifies expense tracking, chore management, event planning, and communication between roommates.",
-      logoSrc: "/logo_roommates.png",
-      githubUrl: "https://github.com/TY-Project-BG-17/TY_Project",
-      liveDemoUrl: "https://project-roommates.vercel.app/",
-      techStack: ["React", "Vite", "Node.js", "Express", "Prisma","PostgreSQL","Tailwind CSS"]
     }
+    
   ];
 
   return (
