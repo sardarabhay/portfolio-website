@@ -5,6 +5,14 @@ import { ProjectCard } from "./ProjectCard";
 export function ProjectsSection() {
   const projects = [
     {
+      title: "DevPulse",
+      description: "Paste any GitHub username and get an instant analytics dashboard — contribution heatmap, language breakdown, activity trends, top repositories, and a computed developer persona. ",
+      logoSrc: "/DevPulse_logo.png",
+      githubUrl: "https://github.com/sardarabhay/devpulse",
+      liveDemoUrl: "https://devpulse-xi.vercel.app/",
+      techStack: ["React", "TypeScript", "Node.js","Express", "Redis","Tanstack Query"]
+    },
+    {
       title: "HarmonyHomes",
       description: "A full-stack roommate management application designed to help shared households organize their daily lives efficiently. HarmonyHomes simplifies expense tracking, chore management, event planning, and communication between roommates.",
       logoSrc: "/logo_roommates.png",
