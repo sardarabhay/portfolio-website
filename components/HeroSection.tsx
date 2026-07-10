@@ -17,7 +17,7 @@ export function HeroSection({ onViewResume, onCopyEmail, copied }: HeroSectionPr
         <div className="flex items-center gap-3">
           <div className="size-2 rounded-full bg-neutral-500 dark:bg-neutral-500 bg-gray-400" />
           <span className="text-lg font-medium text-gray-700 dark:text-neutral-200">
-            Full-Stack Developer
+            Software Engineer
           </span>
         </div>
         <div className="flex justify-center items-center rounded-full md:bg-emerald-500/10 md:px-3 md:py-1">
@@ -59,13 +59,10 @@ export function HeroSection({ onViewResume, onCopyEmail, copied }: HeroSectionPr
               I'm Abhay Sardar
             </h1>
             <p className="text-gray-600 dark:text-neutral-400 font-medium text-lg text-center">
-              I'm a Full-Stack Developer from Pune, India
+              I'm a Software Engineer from Mumbai, India
             </p>
             <p className="text-gray-600 dark:text-neutral-400 text-center max-w-xl">
-              I specialize in building end-to-end web applications using modern
-              technologies across the full stack. From crafting intuitive user
-              interfaces to designing robust backend systems, I create scalable
-              solutions that deliver exceptional user experiences.
+              I specialize in the modern JavaScript ecosystem. I build responsive, highly functional web applications using React, Next.js, and TypeScript, bridging the gap between clean UI design and structured backend data.
             </p>
 
             <div className="flex gap-2">
